@@ -5967,6 +5967,7 @@ int fg_get_batt_isense(struct fg_dev *fg, int *val)
 			(*val)/10, *val, (*val)/1000);
 
 	return 0;
+}
 
 static void fg_gen4_post_init(struct fg_gen4_chip *chip)
 {
